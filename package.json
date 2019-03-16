@@ -1,13 +1,15 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "gatsby-complete-intro-to-react",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "Gatsby version of Complete Intro to React v4",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
+    "format:check": "prettier --list-difference src/**/*.{js,jsx}",
+    "lint": "eslint src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
@@ -18,11 +20,12 @@
     "react-dom": "^16.8.4"
   },
   "devDependencies": {
+    "eslint": "^5.15.2",
     "prettier": "^1.16.4"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+    "url": "https://github.com/halfrice/gatsby-complete-intro-to-react"
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
